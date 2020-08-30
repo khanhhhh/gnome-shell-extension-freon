@@ -2,8 +2,8 @@
   "shell-version": ["3.36"],
   "uuid": "freon@github.com_khanhhhh_gnome-shell-extension-freon",
   "name": "Freon - Forked",
-  "description": "Shows CPU temperature, disk temperature, video card temperature (NVIDIA/Catalyst/Bumblebee&NVIDIA), voltage and fan RPM (forked from xtranophilist/gnome-shell-extension-sensors)",
+  "description": "rpm to krpm of Freon by UshakovVasilii",
   "settings-schema": "org.gnome.shell.extensions.freon",
   "gettext-domain": "freon",
-  "url": "https://github.com/khanh/gnome-shell-extension-freon"
+  "url": "https://github.com/khanhhhh/gnome-shell-extension-freon"
  }
