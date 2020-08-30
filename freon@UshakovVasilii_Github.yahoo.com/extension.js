@@ -409,7 +409,7 @@ const FreonMenuButton = GObject.registerClass(class Freon_FreonMenuButton extend
                 sensors.push({
                     type:'fan',
                     label:fan.label,
-                    value:_("%drpm").format(fan.rpm)});
+                    value:_("%dkrpm").format(fan.rpm/1000)});
             }
             if (fanInfo.length > 0 && voltageInfo.length > 0){
                 sensors.push({type : 'separator'});
